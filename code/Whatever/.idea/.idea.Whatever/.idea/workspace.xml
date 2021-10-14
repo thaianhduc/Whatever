@@ -9,13 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a269ab0-d99f-441e-a14d-77a7e7454697" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Whatever.EventLike.Application/Projection/ProjectionBackgroundService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Whatever.EventLike.Application/Transport/EventChannel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Whatever.EventLike.Application/Transport/EventPackage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Whatever.EventLike.Application/ServiceCollectionExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Whatever/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Whatever/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Whatever.EventLike.Api/Whatever.EventLike.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Whatever.EventLike.Api/Whatever.EventLike.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Whatever.EventLike.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Whatever.EventLike.Api/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Whatever.EventLike.Application/CountersService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Whatever.EventLike.Application/CountersService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Whatever.EventLike.Application/Whatever.EventLike.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Whatever.EventLike.Application/Whatever.EventLike.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Whatever.EventLike.Application/Projection/ProjectionBackgroundService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Whatever.EventLike.Application/Projection/ProjectionBackgroundService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Whatever.EventLike.Application/Transport/EventPackage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Whatever.EventLike.Application/Transport/EventPackage.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634202160687</updated>
       <workItem from="1634202204791" duration="1317000" />
-      <workItem from="1634207005026" duration="1425000" />
+      <workItem from="1634207005026" duration="2733000" />
     </task>
     <servers />
   </component>

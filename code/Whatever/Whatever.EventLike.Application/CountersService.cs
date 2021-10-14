@@ -14,6 +14,10 @@ namespace Whatever.EventLike.Application
         }
         public  Task IncreaseCounter()
         {
+            // Execute whatever the business logic here.
+            // And finally, write an event package into the event channel.
+            // Imagine there is an actual framework here which will publish events.
+            // Those events are then packaged into EventPackage and dispatch
             return _eventChannel.Write(new EventPackage
             {
                 EventName = "CounterIncreased"

@@ -21,6 +21,7 @@ namespace Whatever.EventLike.Application.Projection
         }
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
+            // Keep running until asked to stop
             while (!stoppingToken.IsCancellationRequested)
             {
                 try

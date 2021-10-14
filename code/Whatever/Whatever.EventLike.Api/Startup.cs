@@ -31,7 +31,7 @@ namespace Whatever.EventLike.Api
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo { Title = "Whatever.EventLike.Api", Version = "v1" }); });
             
             // Add application dependencies
-            services.AddScoped<CountersService>();
+            services.RegisterComponents();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
