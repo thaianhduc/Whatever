@@ -4,12 +4,18 @@
     <projectFile profileName="Whatever.EventLike.Api">Whatever.EventLike.Api/Whatever.EventLike.Api.csproj</projectFile>
     <projectFile profileName="IIS Express">Whatever.EventLike.Api/Whatever.EventLike.Api.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5a269ab0-d99f-441e-a14d-77a7e7454697" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Whatever.EventLike.Api/Controllers/CountersController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Whatever.EventLike.Application/Projection/ProjectionBackgroundService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Whatever.EventLike.Application/Transport/EventChannel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Whatever.EventLike.Application/Transport/EventPackage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Whatever/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Whatever/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Whatever.EventLike.Api/Whatever.EventLike.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Whatever.EventLike.Api/Whatever.EventLike.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Whatever.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Whatever.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Whatever.EventLike.Application/CountersService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Whatever.EventLike.Application/CountersService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Whatever.EventLike.Application/Whatever.EventLike.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Whatever.EventLike.Application/Whatever.EventLike.Application.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +36,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -76,7 +87,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634202160687</updated>
-      <workItem from="1634202204791" duration="735000" />
+      <workItem from="1634202204791" duration="1317000" />
+      <workItem from="1634207005026" duration="1425000" />
     </task>
     <servers />
   </component>
@@ -93,8 +105,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
